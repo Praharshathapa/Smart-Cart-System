@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccccccb2;
+  background-color:#ffffffc4;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  text-align: justify;
+  font-style: italic;
+}
+div.desc h3{
+    text-align: center;
+    font-style:normal;
+  
+}
+.topic{
+    text-align: center;
+    text-decoration:underline;
+    margin-bottom: 50px;
+
+}
+html{
+    background-color: #F5E4DA;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 2px 6px;
+  float: left;
+  width: 24.99999%;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color:  #F5E4DA;
+    ;
+}
+nav{
+    display: none;
+}
+ .navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+    .logo1{
+        position: absolute;
+        width: 115px;
+        height: 110px;
+        left: 55px;
+        top: -11px;
+    }
+    .logo{
+      margin-left: 90px;
+      height: 60px;
+      object-fit: contain;
+    }
+
+    .navbar a {
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    margin-right: 50px;
+    }
+    .product{
+      position: absolute;
+      width: 1670px;
+      height: 337px;
+      left: 18px;
+      top: 115px;
+      background: #333759;
+    }
+
+      .videopitch{
+        bottom:1000px;
+      }
+
+  .navbar .menu-icon {
+    color: #000000;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .menu-icon{
+   size: 50px;
+  }
+
+.gallery{
+  border-radius: 40px;
+  padding:20px;
+}
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="menu-icon">&#9776;</div>
+    <img src="images/logo1.png" alt="Logo 1" class="logo1">
+    <img src="images/logo2_.png" alt="Logo 2" class="logo">
+    <a class="active" href="index.html">Home</a>
+    <a href="project.html">Project</a>
+    <a href="product.html">Products</a>
+    <a href="sdg.html">SDG</a>
+    <a href="team.html">Team</a>
+  </div>
+
+<h1 class="topic">PRODUCTS USED</h1>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="images/RFID.png" alt="RFID" width="600" height="400">
+    </a>
+    <div class="desc"><h3>Radio Frequency Identification</h3>
+        RFID (Radio Frequency Identification) is a wireless technology used for identifying and tracking objects using radio waves.
+        To interface with an RFID reader, you will typically need to connect it to a microcontroller or computer using a serial communication interface such as UART or SPI. </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="images/aurdino.png" alt="Arduino Uno" width="600" height="400">
+    </a>
+    <div class="desc"><h3>Arduino Uno</h3>
+        The Arduino Uno is a microcontroller board based on the ATmega328P, with 14 digital input/output pins, 6 analog inputs, a 16 MHz quartz crystal, USB connection, power jack, and ICSP header. It is widely used for prototyping and creating interactive projects.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="images/Xbee.png" alt="XBee" width="600" height="400">
+    </a>
+    <div class="desc"><h3> XBee </h3>
+        XBee is a brand of wireless communication modules that can be used to create wireless networks. These modules use the Zigbee protocol, which is a low-power, wireless mesh networking standard.
+    </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="images/LCD.png" alt="LCD" width="600" height="400">
+    </a>
+    <div class="desc">
+        <h3>
+            Liquid Crystal Display
+        </h3>LCD (Liquid Crystal Display) is a type of display technology that uses liquid crystals to display characters and images.
+        To interface with an LCD display, you will typically need to connect it to a microcontroller or computer using a parallel or serial communication interface. The exact pinout and interface protocol will depend on the specific LCD module being used.</div>
+  </div>
+</div>
+
+
+</body>
+</html>

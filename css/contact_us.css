@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color:  #F5E4DA;
+    ;
+}
+nav{
+    display: none;
+}
+ .navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    background: rgba(22, 22, 22, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+    .logo1{
+        position: absolute;
+        width: 115px;
+        height: 110px;
+        left: 90px;
+        top: -11px;
+    }
+    .logo{
+      margin-left: 90px;
+      height: 60px;
+      object-fit: contain;
+    }
+
+    .navbar a {
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    margin-right: 50px;
+    }
+    .product{
+      position: absolute;
+      width: 1670px;
+      height: 337px;
+      left: 18px;
+      top: 115px;
+      background: #333759;
+    }
+
+    
+
+  .navbar .menu-icon {
+    color: #000000;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .menu-icon{
+   size: 50px;
+  }
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: content-box;
+    overflow-x:hidden;
+}
+
+
+.front_box{
+    position: absolute;
+    width: 1035px;
+    height: 686px;
+    left: 290px;
+    top: 169px;
+}
+
+.front_box2{
+    position: absolute;
+    width: 316px;
+    height: 511px;
+    left: 85px;
+    top: 273px;
+}
+
+.welcomemain{
+    position: absolute;
+    width: 482px;
+    height: 107px;
+    left: 640px;
+    top: 226px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.feel{
+    position: absolute;
+    width: 424px;
+    height: 36px;
+    left: 637px;
+    top: 279px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.46);
+}
+
+.contactus{
+    position: absolute;
+    width: 225px;
+    height: 50px;
+    left: 118px;
+    top: 365px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.left_box1{
+    position: absolute;
+    height: 28.0501708984375px;
+    width: 24.000137329101562px;
+    left: 124.0001220703125px;
+    top: 439px;
+    border-radius: 0px;
+    
+}
+.left1{
+    position: absolute;
+    width: 180px;
+    height: 22px;
+    left: 163px;
+    top: 437px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+
+.left_box2{
+    position: absolute;
+    width: 33px;
+    height: 24px;
+    left: 124px;
+    top: 513px;
+}
+.left2{
+    position: absolute;
+    width: 145px;
+    height: 22px;
+    left: 163px;
+    top: 514px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+
+.left_box3{
+    position: absolute;
+    height: 17.80117206019369px;
+    width: 33.00000130447205px;
+    left: 131.6512451171875px;
+    top: 569px;
+    border-radius: 0px;
+
+}
+.left3{
+    position: absolute;
+    width: 145px;
+    height: 22px;
+    left: 164px;
+    top: 575px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+.inquiry{
+    display:flex;
+}
+.inq1{
+    width: 382px;
+    height: 65px;
+    margin-left: -10%;
+    position:relative;
+    margin-top: -50%;
+    background: rgba(217, 217, 217, 0.53);
+    border-radius: 15px;
+}
+.name{
+    position: absolute;
+    width: 254px;
+    height: 23px;
+    left: 610px;
+    top: 378px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.inq2{
+    position: absolute;
+    width: 382px;
+    height: 65px;
+    margin-top: 25%;
+    margin-left:-21%;
+    background: #E6E6E6;
+    border-radius: 15px;
+}
+.email{
+    width: 254px;
+    height: 23px;
+    left: 610px;
+    top: 481px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.inq3{
+    position: absolute;
+    width: 382px;
+    height: 163px;
+    margin-left: -53%;
+    margin-top: 33%;
+    top: 562px;
+    background: #E6E6E6;
+    border-radius: 15px;
+}
+.msg{
+    position: absolute;
+    width: 254px;
+    height: 23px;
+    left: 610px;
+    top: 575px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: rgba(0, 0, 0, 0.58);
+}
+.login{
+    margin-top:20%;
+    position:relative;
+    left:38%;
+    width:600px;
+}
+input[type=text], input[type=password] {
+    width: 398px;
+    height: 41px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    border:#D9D9D9;
+}
+#email{
+    position:relative;
+    top:10%;
+    left:18%;
+    width: 382px;
+    height: 65px;
+}
+#psw{
+    position:relative;
+    left:18%;
+    margin-top:5%;
+    width: 382px;
+    height: 65px;
+}
+#pswd{
+    position:relative;
+    left:18%;
+    margin-top:5%;
+    width: 382px;
+    height: 163px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline:#55acee;
+}

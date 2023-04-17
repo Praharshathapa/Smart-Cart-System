@@ -1,0 +1,358 @@
+*{
+    box-sizing: border-box;
+  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;   
+    background-color:  #F5E4DA;
+    height: 115vh;
+    
+}
+nav{
+    display: none;
+}
+/* Style for the navigation bar */
+ .navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    background: rgba(22, 22, 22, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+    .logo1{
+        position: absolute;
+        width: 115px;
+        height: 110px;
+        left: 90px;
+        top: -11px;
+    }
+    .logo{
+      margin-left: 90px;
+      height: 60px;
+      object-fit: contain;
+    }
+  
+  /* Style for the links in the navigation bar */
+  /* Style for the links in the navigation bar */
+    .navbar a {
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    margin-right: 50px;
+    }
+    
+
+  /* Style for the hamburger menu */
+  .navbar .menu-icon {
+    color: #000000;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+   
+  
+  /* Style for when the mouse is hovering over a link in the navigation bar */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .menu-icon{
+   size: 50px;
+  }
+  
+  .dis{
+    position: absolute;
+    width: 800px;
+    height: 382px;
+    left: 700px;
+    top: 1563px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .github{
+    position: absolute;
+    width: 298px;
+    height: 71px;
+    left: 747px;
+    top: 1599px;
+    background: #090000;
+    border-radius: 100px;
+  }
+   .hit{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    position: absolute;
+    width: 213px;
+    height: 31px;
+    left: 43px;
+    top: 1500px;
+  }
+  .icon{
+    position: absolute;
+    width: 92px;
+    height: 91px;
+    left: 235px;
+    top: 194px;
+    color: #FFFFFF;
+
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {
+      display: block;
+    }
+    
+  }
+
+.header{
+    width:85%;
+    margin-left:5%;
+    margin-top:-5%;
+}
+  .team{
+    width: 800px;
+    height: 91px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 91px;
+    color: #000000;
+    text-transform: uppercase;
+    top:0%;
+    position: relative;
+    transform: translate(30%, 50%);
+}
+.black_line{
+    width: 1238px;
+    height: 0px;
+    border-radius:10px;
+    border: 1px solid #000000;
+    margin-top: 5%;
+}
+.red_line{
+    width: 128px;
+    height: 0px;
+    border-radius:10px;
+    border: 3px solid rgba(249, 91, 105, 0.95);
+    margin-top: 1%;
+    margin-left:47%;
+}
+.line{
+    margin-top:55%;
+}
+.black_line1{
+    width: 1238px;
+    height: 0px;
+    border-radius:10px;
+    border: 1px solid #000000;
+    margin-top: 5%;
+}
+.red_line1{
+    width: 128px;
+    height: 0px;
+    border-radius:10px;
+    border: 3px solid rgba(249, 91, 105, 0.95);
+    margin-top: 1%;
+    margin-left:47%;
+}
+.tagline{
+  margin-top:-45%;
+  width:95%;
+}
+.tag{
+  float:right;
+  width:650px;
+  height:450px;
+}
+.tag_text{
+    width: 380px;
+    height: 91px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    text-transform: capitalize;
+    position:relative;
+    top:70%;
+    margin-left:15%;
+    padding-top:5%;
+}
+.para_1{
+  width: 980px;
+  height: 91px;
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: gray;
+  text-align: center;
+  text-transform: capitalize;
+  position:relative;
+  top:70%;
+  margin-left:10%;
+  padding-top:6%;
+}
+.button {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #1C97D3;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  width:170px;
+  transition: ease, 0.5s;
+  cursor: pointer;
+  font-family:'Inter', sans-serif;
+  margin-top:2%;
+  margin-left:1%;
+  transform: translate(120%, 50%);
+  
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 10;
+  right: 30px;
+  transition: 0.5s;
+}
+  
+.button:hover span {
+padding-right: 5px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+.button1{
+  background-color: #FF7B7B;
+}
+.mark_1{
+  color:#FF7B7B;
+  background:none;
+}
+.middle{
+  margin-top:5%;
+}
+.para_2{
+  width:400px;
+  position: relative;
+  left:23%;
+  margin-top:-1%;
+}
+.product_images{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    column-gap:10px;
+    justify-items:center;
+    overflow-x:hidden;
+    margin-top:25%;
+}
+.img_1{
+    grid-column:1 span/ 2;
+    background: #FF7B7B;
+    width: 357px;
+    height: 356px;
+    filter: drop-shadow(0px 10px 20px #FCC7A8);
+    text-align: center;
+}
+.img_2{
+  background: #FF7B7B;
+  width: 357px;
+  height: 356px;
+  filter: drop-shadow(0px 10px 20px #FCC7A8);
+  text-align: center;
+}
+.img_3{
+  background: #FF7B7B;
+  width: 357px;
+  height: 356px;
+  filter: drop-shadow(0px 10px 20px #FCC7A8);
+  text-align: center;
+}
+.line2{
+  margin-top:10%;
+}
+.product{
+  width: 100%;
+  height: 337px;
+  left: 18px;
+  margin-top: 5%;
+  background: #333759;
+  text-align:center;
+}
+  .videopitch{
+    bottom:1000px;
+  }
+.video{
+  width: 559px;
+  height: 440px;
+  margin-left: 25px;
+  margin-top:10%;
+  padding: 100px;
+  background: #FF7B7B;
+}
+.line3{
+  margin-top:8%;
+}
+.dis{
+  width: 700px;
+  height: 682px;
+  margin-left:-7%;
+  margin-top:45%;
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: gray;
+  text-align: center;
+  text-transform: inherit;
+  padding-bottom:2%;
+}
+.button5{
+  margin-top:-1%;
+  background-color: #333759;
+}
+.icon{
+    
+    color: black;
+    margin-top:10%;
+
+  }
+
